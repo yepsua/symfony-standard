@@ -18,7 +18,11 @@
         "sensio/distribution-bundle": "~2.3",
         "sensio/framework-extra-bundle": "~3.0",
         "sensio/generator-bundle": "~2.3",
-        "incenteev/composer-parameter-handler": "~2.0"
+        "incenteev/composer-parameter-handler": "~2.0",
+        "yepsua/smartwig-bundle": "1.1.0",
+        "yepsua/theme-bundle": "1.1.0",
+        "yepsua/menu-bundle": "1.1.0",
+        "yepsua/generator-bundle": "1.2.*"
     },
     "scripts": {
         "post-install-cmd": [
@@ -48,5 +52,7 @@
         "branch-alias": {
             "dev-master": "2.4-dev"
         }
-    }
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev"
 }
